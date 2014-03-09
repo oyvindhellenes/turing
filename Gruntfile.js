@@ -8,6 +8,7 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'js/libs/*.js',
+          'js/test_jan.js',
           'js/global.js'
         ],
         dest: 'js/build/production.js',
