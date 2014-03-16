@@ -52,7 +52,7 @@ module.exports = function(grunt) {
     cssmin: {
       combine: {
         files: {
-          'css/build/minified/global.css': ['css/build/prefixed/global.css']
+          'css/build/minified/global.css': ['css/libs/bootstrap-lumen.css', 'css/build/prefixed/global.css']
         }
       }
     },
