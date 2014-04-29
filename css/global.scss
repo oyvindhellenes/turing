@@ -1,2 +1,52 @@
 @import "nav";
 @import "typography";
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #eee;
+}
+
+h2 {
+	margin-top: 10px;
+	font-size: 2.2em;
+}
+
+.col-md-6 {
+	padding: 0 5px 10px 5px;
+}
+
+section {
+	padding: 15px;
+	background: white;
+	box-shadow: 0 1px 4px -1px black;
+	width: 100%;
+}
+
+.icon-courses {
+	float: left;
+	width: 48px;
+	margin-right: 10px;
+}
+
+.result {
+	padding: 10px 10px;
+
+	&:hover {
+		background: #f6f6f6;
+	}
+
+	h4 {
+		margin: 0;
+		font-size: 1.4em;
+	}
+
+	.site {
+		color: #bb5538;
+		margin: 0;
+	}
+}
